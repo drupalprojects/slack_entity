@@ -17,8 +17,6 @@ function slack_entity_entity_info() {
     'base table' => 'slack_entity',
     // Returns the uri elements of an entity
     'uri callback' => 'slack_entity_uri',
-    // Allows this Entity to be accessible  in views.
-    'views controller class' => 'EntityDefaultViewsController',
     // Fieldable that we can attach fields to it - the core functionality will
     // do the heavy lifting here.
     'fieldable' => TRUE,
